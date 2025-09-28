@@ -31,8 +31,11 @@ function App() {
           </button>
         </div>
       </header>
+      <div style={{marginTop:'60px'}}>
+
+      </div>
       <footer>
-        
+        <p>2025 Abhishek Kumar | Built with React + CSS</p>
       </footer>
     </div>
   )
