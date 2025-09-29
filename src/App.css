@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 
-header{
+.header{
+  background-color: whitesmoke;
   width: 100%;
   position:fixed;
   top: 0;
@@ -43,21 +44,26 @@ header{
   outline: 1px solid black;
 }
 
-button{
+.section button{
   all: unset;
   cursor: pointer;
   padding: 8px;
   border-radius: 20px;
   transition: all 1s ease;
 }
-button:hover{
+.section button:hover{
   background-color: black;
   color: white;
-  transform: scale(1.1);
-  z-index: 1;
+  transform: scaleY(1.1);
 }
 
-footer{
+.content{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -65,4 +71,16 @@ footer{
   text-align: center;
   box-shadow: 0px -4px 8px rgba(0,0,0,0.6);
   z-index: 10;
+}
+
+button{
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 1s linear;
+}
+
+button:hover{
+  background-color: black;
+  color: grey;
+  transform: scale(1.1);
 }

@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <header>
+      <header className='header'>
         <div className='logoHeader'>
           <div className='logo'>
             <span>AK</span>
@@ -33,7 +33,7 @@ function App() {
           <button>Resume</button>
           <button>Contact</button>
         </div>
-        <div className='section'>
+        <div>
           <button>
             Get In Touch
           </button>
@@ -48,7 +48,7 @@ function App() {
         <Resume/>
         <Contact/>
       </div>
-      <footer>
+      <footer className='footer'>
         <p><BsAt/> 2025 Abhishek Kumar | Built with React + CSS</p>
       </footer>
     </div>
