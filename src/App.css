@@ -58,12 +58,14 @@
 }
 
 .content{
-  margin-top: 40px;
+  margin-top: 60px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
 }
 
 .footer{
+  background-color: whitesmoke;
   width: 100%;
   position: fixed;
   bottom: 0;
