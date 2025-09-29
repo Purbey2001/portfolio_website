@@ -21,10 +21,10 @@ function Home() {
           <button> <MdFileDownload/> Download Resume</button>
         </div>
         <div className='profileUrl'>
-          <Link to='https://www.linkedin.com/in/abhishek-kumar-2a360523a/'><FaLinkedin /></Link>
-          <Link to='https://github.com/Purbey2001'><FaSquareGithub /></Link>
-          <Link to='https://leetcode.com/u/Purbey_2001/'><SiLeetcode /></Link>
-          <Link to='https://www.codechef.com/users/purbey2001'><SiCodechef /></Link>
+          <a href='https://www.linkedin.com/in/abhishek-kumar-2a360523a/'><FaLinkedin style={{color:"blue"}}/></a>
+          <a href='https://github.com/Purbey2001'><FaSquareGithub style={{color:'black'}}/></a>
+          <a href='https://leetcode.com/u/Purbey_2001/'><SiLeetcode style={{color:'orange'}}/></a>
+          <a href='https://www.codechef.com/users/purbey2001'><SiCodechef style={{color:'black'}}/></a>
         </div>
       </div>
       <div className='imagr'>
