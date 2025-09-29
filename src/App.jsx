@@ -1,4 +1,12 @@
 import './App.css'
+import { BsAt } from "react-icons/bs";
+import Home from './components/Home'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
+import Achievements from './components/Achievements'
+import About from './components/About'
+import Resume from './components/Resume'
+import Contact from './components/Contact'
 
 function App() {
   
@@ -31,11 +39,17 @@ function App() {
           </button>
         </div>
       </header>
-      <div style={{marginTop:'60px'}}>
-
+      <div className='content'>
+        <Home/>
+        <Skills/>
+        <Projects/>
+        <Achievements/>
+        <About/>
+        <Resume/>
+        <Contact/>
       </div>
       <footer>
-        <p>2025 Abhishek Kumar | Built with React + CSS</p>
+        <p><BsAt/> 2025 Abhishek Kumar | Built with React + CSS</p>
       </footer>
     </div>
   )
