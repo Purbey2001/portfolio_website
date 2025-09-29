@@ -1,0 +1,10 @@
+.resume{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.resume p{
+    font-weight: 100;
+    color: rgb(131, 126, 126);
+}

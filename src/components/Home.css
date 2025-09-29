@@ -1,4 +1,6 @@
 .home{
+    width: 80%;
+    margin: auto;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -17,9 +19,21 @@
 }
 
 
-.img-bg{
+/* .img-bg{
     height: 200px;
     width: 200px;
     border-radius: 100px;
     background-color: grey;
+    position: absolute;
+} */
+
+.home-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    /* background-color: rgb(184, 236, 236);
+    position: relative;
+    top: -10px;
+    right: 10px; */
+    box-shadow: 10px 10px 8px rgba(0,0,0,0.6);
 }

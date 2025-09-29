@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './Home.css'
+import pic from "../assets/pic.jpg";
 import { MdFileDownload } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
@@ -27,8 +28,8 @@ function Home() {
         </div>
       </div>
       <div className='imagr'>
-        <div className='img-bg'></div>
-        <img src="" alt="" />
+        {/* <div className='img-bg'></div> */}
+        <img src={pic} alt="" className='home-img'/>
       </div>
     </div>
   )
