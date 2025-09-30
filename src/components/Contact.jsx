@@ -62,17 +62,17 @@ function Contact() {
           <form action="">
             <label>Name :
             <br />
-            <input type="text" value={formData.fullName} placeholder='fullName' name='fullName'onChange={changeHandler}/> 
+            <input type="text" value={formData.fullName} placeholder='fullName' name='fullName'onChange={changeHandler} style={{width:'80%'}}/> 
             </label>
             <br />
             <label>Email :
             <br />
-            <input type="email" value={formData.email} placeholder='email' name='email'onChange={changeHandler}/> 
+            <input type="email" value={formData.email} placeholder='email' name='email'onChange={changeHandler} style={{width:'80%'}}/> 
             </label>
             <br />
             <label>Message :
             <br />
-            <textarea value={formData.message} rows="5" cols="30" placeholder="Type something here..." name='message' onChange={changeHandler}/>
+            <textarea value={formData.message} rows="4" cols="36" placeholder="Type something here..." name='message' onChange={changeHandler} style={{width:'80%'}}/>
             </label>
             <br />
             <button style={{width:'90%',margin:'auto',display:'block'}}>Send message</button>
