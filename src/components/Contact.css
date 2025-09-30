@@ -1,0 +1,34 @@
+.contact{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-section{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    text-align: left;
+    padding: 16px;
+    margin: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+    border-radius: 12px;
+    transition: all 1s ease;
+}
+
+.contact-section:hover{
+    transform: scaleX(1.1);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.6);
+}
+
+.contact-form{
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.4);
+}
